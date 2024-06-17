@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  section#contactSection
+    h1 Contact Us
+    form(action="/contact", method="POST")
+      label(for="name") Name:</label>
+      input(type="text", name="name", id="name", required)
+      label(for="email") Email:</label>
+      input(type="email", name="email", id="email", required)
+      label(for="phone") Phone:</label>
+      input(type="tel", name="phone", id="phone", required)
+      label(for="desc") Message:</label>
+      textarea(name="desc", id="desc", rows="4", required)
+      label(for="age") Age:</label>
+      input(type="number", name="age", id="age", required)
+      button(type="submit") Submit

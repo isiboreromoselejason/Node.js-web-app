@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  section#createSection
+    h1 Create Dance Class or Event
+    form(action="/create", method="POST")
+      label(for="type") Type:</label>
+      select(name="type" id="type" required)
+        option(value="class") Dance Class
+        option(value="event") Event
+      label(for="name") Name:</label>
+      input(type="text", name="name", id="name", required)
+      label(for="description") Description:</label>
+      textarea(name="description", id="description", rows="4", required)
+      label(for="instructor") Instructor (for classes):</label>
+      input(type="text", name="instructor", id="instructor")
+      label(for="timing") Timing:</label>
+      input(type="text", name="timing", id="timing", required)
+      button(type="submit") Add

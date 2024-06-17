@@ -1,0 +1,353 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #007bff;
+  }
+  
+  /* Container styles */
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Intro Section styles */
+  #introSection {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffebcd;
+  }
+  
+  #introSection h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  #introSection p {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  /* Mission Section styles */
+  #missionSection {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #missionSection h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card h3 {
+    font-size: 1.8em;
+    margin: 10px 0;
+  }
+  
+  .card-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .card-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .card-content {
+    flex-grow: 1;
+  }
+  
+  .card-content p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  /* Sponsor Section styles */
+  #SponsorSection {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffebcd;
+  }
+  
+  #SponsorSection h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #Sponsors {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #Sponsors img {
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Event Section styles */
+  #eventSection {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #eventSection h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .event {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .event h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .event p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Create Section styles */
+  #createSection {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #createSection h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Contact Section styles */
+  #contactSection {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #contactSection h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dance Classes Section styles */
+  #classSection {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #classSection h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .danceClass {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .danceClass h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .danceClass p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1em;
+  }
+  

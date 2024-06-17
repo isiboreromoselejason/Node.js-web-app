@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  section#eventSection
+    h1 Events
+    each event in events
+      .event
+        h2= event.name
+        p Description: #{event.description}
+        p Timing: #{event.timing}

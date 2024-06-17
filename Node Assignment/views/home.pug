@@ -1,0 +1,23 @@
+
+extends layout
+
+block content
+  section#introSection
+    h1 Welcome To Dee's Dance Academy
+    p Eat. Sleep. Dance. Repeat.
+  section#missionSection
+    h2 Our Mission
+    each item, index in ['Dance Perfection', 'Dance the way you like', 'Expert teaching']
+      .card
+        h3= item
+        .card-box
+          .card-img
+            img(src=`/img/${index + 1}.png`, alt=`${item} image`)
+          .card-content
+            p This is the best dance academy in Canada
+  section#SponsorSection
+    h3 Our Sponsors
+    #Sponsors
+      img(src="/img/Logo1.jpeg", alt="Sponsor 1")
+      img(src="/img/logo2.png", alt="Sponsor 2")
+

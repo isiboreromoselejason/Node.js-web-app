@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  section#classSection
+    h1 Dance Classes
+    each danceClass in danceClasses
+      .danceClass
+        h2= danceClass.name
+        p Description: #{danceClass.description}
+        p Instructor: #{danceClass.instructor}
+        p Timing: #{danceClass.timing}
